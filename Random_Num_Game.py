@@ -30,7 +30,7 @@ def guessing_game():
             return()
         else:
             print("Input is invalid. Check yourself!")
-            guess = input("Guess Again! You have {chances} left\n")
+            guess = input(f"Guess Again! You have {chances} left\n")
         print("You Lose Out Of Guesses")
     return()
         
