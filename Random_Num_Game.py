@@ -11,7 +11,7 @@ def guessing_game():
     
     #Ask user to take a guess as INPUT
     print("Guess a number bertween 1 - 100, NOW!\n")
-    guess = input("No decimels, Wise Guy...\n")
+    guess = input("No Decimels, Archimedes...\n")
     
     while True:
         #Check if user was correct
