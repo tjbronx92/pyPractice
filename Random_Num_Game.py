@@ -23,10 +23,10 @@ def guessing_game():
             guess = input("Guess Again! \n")
         elif int(guess) == number:
             print(f"{guess} Was Just Right!")
-            exit()
+            return()
         else:
             print("Input is invalid. Check yourself!")
-            guess = input()
+            guess = input("Guess Again! \n")
         
 #START GAME            
 guessing_game()
