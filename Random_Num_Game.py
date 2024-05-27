@@ -10,17 +10,17 @@ def guessing_game():
     number
     
     #Ask user to take a guess as INPUT
-    print("Guess a number bertween 1 - 100, NOW!")
+    print("Guess a number bertween 1 - 100, NOW!\n")
     guess = input()
     
     while True:
         #Check if user was correct
         if int(guess) < number:
             print(f"{guess} Is To Low...")
-            guess = input("Guess Again!")
+            guess = input("Guess Again! \n")
         elif int(guess) > number:
             print(f"{guess} Is To High...")
-            guess = input("Guess Again!")
+            guess = input("Guess Again! \n")
         elif int(guess) == number:
             print(f"{guess} Was Just Right!")
             exit()
@@ -28,6 +28,7 @@ def guessing_game():
             print("Input is invalid. Check yourself!")
             guess = input()
         
+#START GAME            
 guessing_game()
 
 """
