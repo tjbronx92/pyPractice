@@ -4,9 +4,9 @@
 #Homespun version of sum()
 
 
-def Tsum(*numbers):
+def Tsum(*numberlist):
     output = 0
-    for num in numbers:
+    for num in numberlist:
         output+=num
     return(output)
     
